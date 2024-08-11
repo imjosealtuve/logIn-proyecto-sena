@@ -1,0 +1,127 @@
+*{
+  font-family: "Work Sans", sans-serif;
+}
+body{
+    background: url('./img/backgroundBody.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 96vh;
+    
+}
+h1{
+  color: #002033;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: -1px;
+}
+h2{
+  font-weight: 300;
+  color: #999999;
+  font-size: 18px;
+  
+}
+p{
+  color: #999999;
+  display: inline;
+  letter-spacing: -1px;
+}
+#imgSena{
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+}
+#logoSena{
+  width: 6vw;
+  min-width: 70px;
+  margin-bottom: 10px;
+  
+}
+#emailIcon, #passwordIcon, #eyeIcon{
+  width: 1.3vw;
+  min-width: 15px;
+  margin-bottom:-1px;
+}
+#passwordIcon{
+  width: 1.2vw;
+  margin-bottom:-3px;
+}
+#eyeIcon{
+  cursor: pointer;
+  transition: url('/img/correo.png');
+}
+
+#container{
+  transform: scale(0.9);
+  width: 400px;
+  max-height: 500px;
+  margin: auto;
+  background-color: white;
+  padding: 90px 64px;
+  border: 2px solid #508fb3;
+  border-radius: 36px;
+}
+.min-container{
+  margin-left: 20px;
+  display: inline;
+}
+#title{
+  margin-bottom: 10px;
+}
+#subtitle{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.inputDatos{
+  margin: 0px 10px 24px;
+  width: 240px;
+  height: 26px;
+  border: none;
+  color:#999999;
+  padding: 6px 0 6px 10px;
+  outline: none;
+}
+.inputDatos:active{
+  border: none;
+
+}
+#recuerdame{
+  margin: 0 84px 0px 0;
+
+}
+p,a{
+  font-size: 14px;
+  
+}
+
+#checkbox{
+  cursor: pointer;
+  margin: 0;
+  margin-top: 0;
+}
+#checkbox:checked{
+  accent-color: #508fb3;
+  color: #fff;
+  background-color: #ffffff;
+  }
+a{
+  text-decoration: none;
+  color: #205c80;
+  letter-spacing: -1px;
+}
+
+#button{
+  background-color: #205c80;
+  color: white;
+  font-weight: 300;
+  border: 0px;
+  border-radius: 6px;
+  margin: 20px 0;
+  padding: 10px 30px;
+  transition: .3s ease-in-out;
+}
+#button:hover{
+  cursor: pointer;
+  transform: scale(1.08);
+}
